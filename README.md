@@ -1,6 +1,6 @@
 ## This repository contains the code developed during the YData industrial project for Forter
 
-The project aimed to implement a POC for a novel feature designed to enhance fraud ring detection. The concept was based on creating a semantic space of item names to group similar products regardless of naming variations, differentiate products with similar names but different underlying attributes. By adding existing and new features to this semantic space, the project demonstrated the ability to detect fraud rings that employ relatively stable product purchasing strategies.
+The project aimed to implement a POC for a novel feature designed to enhance fraud ring detection. The concept was based on creating a semantic space of item names to group similar products regardless of naming variations, differentiate products with similar names but different underlying attributes. By adding existing and new features to this semantic space, the project demonstrated the ability to detect fraud rings that use relatively stable product purchasing strategies.
 
 To achieve this, solutions optimized for minimal computational resources were proposed:
 * Transitioning from analyzing individual transactions to analyzing shopping carts.
