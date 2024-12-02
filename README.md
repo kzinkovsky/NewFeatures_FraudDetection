@@ -1,4 +1,4 @@
-#This repository contains the code created and results obtained during the YData industrial project for Forter.
+# This repository contains the code created and results obtained during the YData industrial project for Forter.
 
 The project aimed to implement a Proof of Concept for a novel feature designed to enhance fraud ring detection. The concept was based on creating a semantic space of product names to:
 
