@@ -5,7 +5,7 @@ The project aimed to implement a POC for a novel feature designed to enhance fra
 To achieve this, solutions optimized for minimal computational resources were proposed:
 * Transitioning from analyzing individual transactions to analyzing shopping carts.
 * Generating item name embeddings using a lightweight spaCy model, preserving semantic distinctions.
-* Introducing lag features representing the conditional probability of product appearances in baskets across specific online shops.
+* Introducing lag features representing the conditional probability of product appearances in carts across specific online shops.
 * Employing a CatBoost classification model, known for its speed and efficiency in handling categorical variables.
   
 Despite these "lightweight" solutions, downsizing data during testing was necessary. Additionally, the project utilized the NVIDIA RAPIDS library to speed up the calculation of lag features in pandas, reducing computation and processing times significantly.
